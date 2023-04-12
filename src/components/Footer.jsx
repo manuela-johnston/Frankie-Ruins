@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="footer-links">
             <div className="footer-links-div">
               <Link to="/" className="footer-logo">
-                <h3>Frankie Ruins</h3>
+                <h3>FRANKIE RUINS</h3>
               </Link>
             </div>
 
@@ -51,7 +51,6 @@ export default function Footer() {
         <div className="footer-copyright"></div>
         <p>Copyright © {new Date().getFullYear()} Frankie Ruins</p>
       </div>
-      <div className="-footer-gradient"></div>
     </>
   )
 }

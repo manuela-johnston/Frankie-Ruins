@@ -51,6 +51,7 @@ section:nth-child(odd)
   text-align: left;
   font-weight: 400;
   font-size: 30px;
+  top: 0vh;
   width: 8vw;
   left: 0rem;
 
@@ -59,6 +60,79 @@ section:nth-child(odd)
 .slogan{
   width: 25%;
   text-align: left;
-  top: 25vh;
+  top: 30vh;
   font-weight: 700;
 }
+
+
+/* INSTAFEED */
+.ig-container{
+  background-color: var(--offWhite);
+  text-align: center;
+  height: 60vh;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.ig-grid{
+  display: flex;
+  top: 20px;
+  align-items: center;
+}
+
+.ig-handle{
+  padding: 20px;
+  height: 20px;
+  width: 100%;
+  background-color: var(--offWhite);
+}
+
+.ig-pic{
+
+ padding: 10px;
+ height: 30vh;
+ width: 30vw;
+}
+
+/* MINIBIO */
+
+.bio-background{
+
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  background: url('./frankie-sig.png')center center repeat;
+    
+}
+
+.bio-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.bio-column1{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+}
+
+.bio-heading{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.bio-p{
+  margin-bottom: 20px;
+}
+
+.bio-button{
+background-color: #21b0d0;
+border-radius: 50px;
+color: var(--offWhite);
+border-style: none;
+width: 200px;
+height: 160px;
+
+}
+

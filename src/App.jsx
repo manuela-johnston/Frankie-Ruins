@@ -12,22 +12,27 @@ import Contact from './pages/contact/Contact.jsx'
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: 'transparent' }}>
-      <main>
-        <header>
-          <Nav />
-        </header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/previouswork" element={<PreviousWork />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+    <div
+      className="App"
+      style={{ backgroundColor: 'transparent', minHeight: '100' }}
+    >
+      <div className="container">
+        <main>
+          <header>
+            <Nav />
+          </header>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/previouswork" element={<PreviousWork />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </div>
 
-      <footer>
-        <Footer />
-      </footer>
+      {/* <footer>
+        <Footer className="sticky-footer" />
+      </footer> */}
     </div>
   )
 }

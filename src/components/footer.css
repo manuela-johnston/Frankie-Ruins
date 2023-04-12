@@ -3,8 +3,7 @@
 }
 
 .footer{
-  position:sticky;
-  bottom: 0px;
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 20rem;
@@ -12,6 +11,12 @@
   color: #000000;
   background-color: #FFF4F8;
   flex-grow: 0;
+}
+
+.footer .footer-bottom{
+  position: absolute;
+  bottom: 0px;
+  
 }
 
 .footer-links{
@@ -53,12 +58,7 @@ a{
  font-weight: 600;
 }
 
-.footer-gradient{
-  position: fixed;
-  bottom: 0;
-  background-color: linear-gradient(to right, pink , skyblue);
-  height: 20px;
-}
+
 
 @media screen and (max-width: 850px){
   .footer-logo h3{
@@ -88,3 +88,9 @@ a{
   }
 }
 
+.footer-gradient{
+  position: flex;
+  bottom: 0;
+  background-color: linear-gradient(to right, pink , skyblue);
+  height: 20px;
+}
