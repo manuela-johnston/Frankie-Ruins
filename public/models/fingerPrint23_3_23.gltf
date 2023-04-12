@@ -1,0 +1,305 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "final ring"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Curve.003",
+            "rotation" : [
+                0,
+                -0.018220890313386917,
+                0,
+                0.9998340010643005
+            ],
+            "scale" : [
+                5.559000492095947,
+                4.407297134399414,
+                4.412980079650879
+            ],
+            "translation" : [
+                0.012133782729506493,
+                1.3875279426574707,
+                -0.058252617716789246
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Curve.002",
+            "rotation" : [
+                0,
+                0,
+                -1,
+                -1.6292068494294654e-07
+            ],
+            "scale" : [
+                2.1334781646728516,
+                0.01026642881333828,
+                2.1334781646728516
+            ],
+            "translation" : [
+                0.0009973794221878052,
+                0.9816991090774536,
+                0.02031572163105011
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.17769500613212585,
+                    0.17769500613212585,
+                    0.17769500613212585,
+                    1
+                ],
+                "metallicFactor" : 0.9766583442687988,
+                "roughnessFactor" : 0.05440413951873779
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SVGMat.005",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0.720812201499939,
+                "roughnessFactor" : 0.8568527698516846
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SVGMat.003",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.014809807762503624,
+                    0.014809807762503624,
+                    0.014809807762503624,
+                    1
+                ],
+                "metallicFactor" : 0.9345794320106506,
+                "roughnessFactor" : 0.09158879518508911
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Curve.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Curve.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 682600,
+            "max" : [
+                1.1737048625946045,
+                1.3436219692230225,
+                0.32600805163383484
+            ],
+            "min" : [
+                -1.1737048625946045,
+                -1.1667484045028687,
+                -0.3260080814361572
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 682600,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 682600,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 1355601,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 740570,
+            "max" : [
+                0.15704524517059326,
+                -0.014512614347040653,
+                0.09013957530260086
+            ],
+            "min" : [
+                -0.15871106088161469,
+                -0.015785571187734604,
+                -0.06786352396011353
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 740570,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 740570,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 1269696,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 39878,
+            "max" : [
+                0.15564961731433868,
+                0.13999998569488525,
+                0.07084619998931885
+            ],
+            "min" : [
+                -0.14092585444450378,
+                -0.13999998569488525,
+                -0.05410800874233246
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 39878,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 39878,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 67620,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2399735,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2373174,
+            "byteOffset" : 2399736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 153273,
+            "byteOffset" : 4772912
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4926188,
+            "uri" : "fingerPrint23_3_23.bin"
+        }
+    ]
+}

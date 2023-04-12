@@ -1,0 +1,64 @@
+*
+{
+    margin-top: 0;
+    margin-left: 25%;
+    padding: 0;
+}
+
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.section
+{
+    position: absolute;
+    width: 100px;
+    height: 100vh;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    margin-left: 11rem;;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+ #hero-overlay-text{
+  position:fixed;
+  top:0;
+  
+  
+
+
+}
+
+.est{
+  text-align: left;
+  font-weight: 400;
+  font-size: 30px;
+  width: 8vw;
+  left: 0rem;
+
+} 
+
+.slogan{
+  width: 25%;
+  text-align: left;
+  top: 25vh;
+  font-weight: 700;
+}
