@@ -29,7 +29,7 @@ export default function Scene() {
           position: [-4, 3, 6],
         }}
       >
-        <Environment preset="apartment" />
+        <Environment preset="sunset" />
         <directionalLight castShadow position={[1, 2, 3]} intensity={1.5} />
         <ambientLight intensity={10} />
         <PresentationControls
