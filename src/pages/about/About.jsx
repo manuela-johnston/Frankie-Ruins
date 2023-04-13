@@ -1,7 +1,14 @@
+import './about.css'
+import Footer from '../../components/Footer'
+import Bio from './Bio'
+import BioVid from './BioVid'
+
 export default function About() {
   return (
     <>
-      <h1>About</h1>
+      <Bio />
+      <BioVid />
+      <Footer />
     </>
   )
 }

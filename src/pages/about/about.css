@@ -1,0 +1,24 @@
+*{
+  background-color: var(--offWhite);
+}
+
+.bio{
+  display:flex;
+  flex-direction: column;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content: space-evenly;
+width: 100%;
+}
+
+.column{
+  margin: 200px;
+  height: 60vh;
+  width: 50vh;
+  object-fit: cover;
+
+}
