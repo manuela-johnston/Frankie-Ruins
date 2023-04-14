@@ -1,24 +1,37 @@
-*{
+.about-page{
   background-color: var(--offWhite);
+  height: 100vh;
+  width: 100%;
+  padding: 20vh 0px;
+  
 }
 
 .bio{
   display:flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.bio-text{
+  padding: 0;
+  margin: 0px;
 }
 
 .row{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
 display: flex;
-flex-direction: row;
-align-items:center;
-justify-content: space-evenly;
-width: 100%;
+align-content: space-around;
 }
+
+.column img{
+
+height: auto;
+width: 420px;}
 
 .column{
-  margin: 200px;
-  height: 60vh;
-  width: 50vh;
-  object-fit: cover;
-
+  width: 550px; 
 }
+
+

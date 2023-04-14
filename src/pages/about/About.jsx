@@ -6,9 +6,11 @@ import BioVid from './BioVid'
 export default function About() {
   return (
     <>
-      <Bio />
-      <BioVid />
-      <Footer />
+      <div className="about-page">
+        <Bio />
+        <BioVid />
+        <Footer />
+      </div>
     </>
   )
 }
