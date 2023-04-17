@@ -16,7 +16,7 @@ function App() {
       className="App"
       style={{ backgroundColor: 'transparent', minHeight: '100' }}
     >
-      <div className="container">
+      <div className="main-container">
         <main>
           <header>
             <Nav />
