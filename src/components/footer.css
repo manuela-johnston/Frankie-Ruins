@@ -3,7 +3,7 @@
 }
 
 .footer{
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   height: 20rem;
@@ -14,7 +14,7 @@
 }
 
 .footer .footer-bottom{
-  position: absolute;
+  /* position: absolute; */
   bottom: 0px;
   
 }
@@ -88,9 +88,9 @@ a{
   }
 }
 
-.footer-gradient{
+/* .footer-gradient{
   position: flex;
   bottom: 0;
   background-color: linear-gradient(to right, pink , skyblue);
   height: 20px;
-}
+} */

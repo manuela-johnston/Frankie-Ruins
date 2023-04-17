@@ -1,37 +1,81 @@
 .about-page{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
   background-color: var(--offWhite);
-  height: 100vh;
+  height: 400vh;
   width: 100%;
-  padding: 20vh 0px;
-  
 }
 
-.bio{
+.about-content{
+  top: 0px;
+  padding: 20vh 0px;
   display:flex;
   flex-direction: column;
+}
+
+/* Container for the grid */
+.about-page-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height of the container to 100% of viewport height */
+}
+
+/* Grid container */
+.grid-container {
+  top: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 1rem; /* Gap between grid items */
+  max-width: 800px; /* Set max-width for the grid container */
+}
+
+/* Grid item */
+.grid-item {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 80px;
+ z-index: 0;
+
+}
+
+/* Image in grid item */
+.grid-item img {
+  max-width: 100%; /* Set max-width for the image to 100% */
+  max-height: 85%;
+  border-radius: 20px;
+}
+
+.grid-item h4{
+  margin-top: 45%;
+  height : 10vh;
+ 
+}
+
+
+.vid-container {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.bio-vid {
+  position: relative;
+  bottom: 0; /* Update top to bottom to position the video element at the bottom of the container */
+  left: 0;
+  height: 200vh;
+  margin: 0;
+  object-fit: cover;
 }
 
 .bio-text{
-  padding: 0;
-  margin: 0px;
+  text-align: left;
 }
-
-.row{
-width: 1130px;
-max-width: 95%;
-margin: 0 auto;
-display: flex;
-align-content: space-around;
-}
-
-.column img{
-
-height: auto;
-width: 420px;}
-
-.column{
-  width: 550px; 
-}
-
-

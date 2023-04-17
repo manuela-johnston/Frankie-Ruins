@@ -7,10 +7,12 @@ export default function About() {
   return (
     <>
       <div className="about-page">
-        <Bio />
+        <div className="about-content">
+          <Bio />
+        </div>
         <BioVid />
-        <Footer />
       </div>
+      <Footer className="footer" />
     </>
   )
 }
