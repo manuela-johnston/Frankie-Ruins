@@ -9,7 +9,7 @@
   height: 20rem;
   text-decoration: none;
   color: #000000;
-  background-color: #FFF4F8;
+  background-color: var(--offWhite);
   flex-grow: 0;
 }
 

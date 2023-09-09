@@ -2,6 +2,7 @@ export default function Bio() {
   return (
     <>
       <div className="about-page-container">
+        <h1>ABOUT</h1>
         <div className="grid-container">
           <div className="grid-item">
             <img src="./polishing.png" alt="Image 1" />

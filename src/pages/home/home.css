@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 .webgl
 {
     position: absolute;
@@ -14,8 +13,6 @@
     width: 100%;
     z-index: -1;
 }
-
-
 
 .section
 {
@@ -29,7 +26,7 @@
     align-items: center;
     color: #000000;
     text-transform: uppercase;
-    font-size: 7vmin;
+    font-size: 5vmin;
     margin-left: 11rem;;
 }
 
@@ -47,10 +44,10 @@ section:nth-child(odd)
 .est{
   text-align: left;
   font-weight: 400;
-  font-size: 30px;
-  top: 0vh;
+  font-size: 20px;
+  top:15vh;
   width: 8vw;
-  left: 0rem;
+  left: -1rem;
 
 } 
 
@@ -64,11 +61,12 @@ section:nth-child(odd)
 
 /* INSTAFEED */
 .ig-container{
-  background-color: var(--offWhite);
+  background-color: #FFB7D2;
   text-align: center;
-  height: 60vh;
+  height: 40vh;
   padding-left: 20%;
   padding-right: 20%;
+  margin-bottom: 80px;
 }
 
 .ig-grid{
@@ -78,58 +76,90 @@ section:nth-child(odd)
 }
 
 .ig-handle{
-  padding: 20px;
+  margin-top: 80px;
   height: 20px;
   width: 100%;
-  background-color: var(--offWhite);
+  background-color: #FFB7D2;
 }
 
 .ig-pic{
-
  padding: 10px;
  height: 30vh;
  width: 30vw;
 }
 
+img{
+  border-radius: 10px;
+}
+
 /* MINIBIO */
 
 .bio-background{
-
+margin-top: 80px;
   display: flex;
   height: 60vh;
   width: 100%;
-  background: url('./frankie-sig.png')center center repeat;
+  /* background: url('./frankie-sig.png')center center repeat; */
     
 }
 
 .bio-content{
   display: flex;
   flex-direction: row;
+  height: 400px;
+  margin: 40px;
 }
 
 .bio-column1{
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 30px;
   text-align: left;
 }
 
+.mini_bio_img{
+  width: auto;
+  margin-left: 300px;
+  border-radius: 10px;
+}
+
+.mini-bio-heading{
+  top:0;
+  width: auto;
+  text-align: left;
+
+}
+
 .bio-heading{
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .bio-p{
   margin-bottom: 20px;
+  width: 350px;
 }
 
 .bio-button{
-background-color: #21b0d0;
-border-radius: 50px;
-color: var(--offWhite);
-border-style: none;
-width: 200px;
-height: 160px;
-
+    background-color: #000000;
+    color:#FFF4F8;
+    width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    padding:10px;
 }
+  
+  .bio-button:hover{
+    background-color: #fff;
+    color:#000000;
+    transition: 3000;
+  }
+  
 
+
+.videoGallery{
+  width: 100vw;
+  
+}

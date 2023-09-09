@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "knex": "knex",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "host": "vite --host"
   },
   "dependencies": {
     "@react-three/drei": "^9.62.2",

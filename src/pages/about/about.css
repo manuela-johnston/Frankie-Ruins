@@ -3,9 +3,17 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  background-color: var(--offWhite);
+  background-color: var(--mainpink);
   height: 400vh;
   width: 100%;
+}
+
+h1{
+  width: 25%;
+  text-align: center;
+  top: 0vh;
+  font-weight: 700;
+  margin-bottom: 80px;
 }
 
 .about-content{
@@ -31,10 +39,13 @@
   grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
   gap: 1rem; /* Gap between grid items */
   max-width: 800px; /* Set max-width for the grid container */
+
 }
+
 
 /* Grid item */
 .grid-item {
+  
   display: flex;
   height: 70vh;
   flex-direction: column;
@@ -42,20 +53,23 @@
   justify-content: center;
   padding: 1rem;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
  z-index: 0;
+ 
 
 }
+
 
 /* Image in grid item */
 .grid-item img {
-  max-width: 100%; /* Set max-width for the image to 100% */
+  max-width: auto; /* Set max-width for the image to 100% */
   max-height: 85%;
-  border-radius: 20px;
+  border-radius: 10px;
+
 }
 
 .grid-item h4{
-  margin-top: 45%;
+  margin-top: 30%;
   height : 10vh;
  
 }
@@ -71,7 +85,7 @@
   position: relative;
   bottom: 0; /* Update top to bottom to position the video element at the bottom of the container */
   left: 0;
-  height: 200vh;
+  height: 100vh;
   margin: 0;
   object-fit: cover;
 }
