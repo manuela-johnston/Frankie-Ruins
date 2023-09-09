@@ -2,9 +2,10 @@ export default function Bio() {
   return (
     <>
       <div className="about-page-container">
+        <h1>ABOUT</h1>
         <div className="grid-container">
           <div className="grid-item">
-            <img src="public/polishing.png" alt="Image 1" />
+            <img src="./polishing.png" alt="Image 1" />
           </div>
           <div className="grid-item">
             <h4 className="bio-chapter bio-text">
@@ -39,11 +40,11 @@ export default function Bio() {
           </div>
 
           <div className="grid-item">
-            <img src="public/bench.png" alt="Image 2" />
+            <img src="./bench.png" alt="Image 2" />
           </div>
 
           <div className="grid-item">
-            <img src="public/cabinet.png" alt="Image 3" />
+            <img src="./cabinet.png" alt="Image 3" />
           </div>
           <div className="grid-item">
             <h4 className="bio-chapter bio-text">

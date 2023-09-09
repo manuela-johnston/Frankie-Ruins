@@ -26,10 +26,26 @@ export default function Scene() {
           fov: 45,
           near: 0.1,
           far: 50,
-          position: [-4, 3, 6],
+          position: [-2, 2, 6],
         }}
       >
-        <Environment preset="forest" />
+        <Environment
+          background={false} // can be true, false or "only" (which only sets the background) (default: false)
+          blur={0} // blur factor between 0 and 1 (default: 0, only works with three 0.146 and up)
+          files={[
+            'Standard-Cube-Map/px.png',
+            'Standard-Cube-Map/nx.png',
+            'Standard-Cube-Map/py.png',
+            'Standard-Cube-Map/ny.png',
+            'Standard-Cube-Map/pz.png',
+            'Standard-Cube-Map/nz.png',
+          ]}
+          path="/"
+          preset={null}
+          scene={undefined} // adds the ability to pass a custom THREE.Scene, can also be a ref
+          encoding={undefined} // adds the ability to pass a custom THREE.TextureEncoding (default: THREE.sRGBEncoding for an array of files and THREE.LinearEncoding for a single texture)
+        />
+        {/* <Environment preset="sunset" /> */}
         <directionalLight castShadow position={[1, 2, 3]} intensity={1.5} />
         <ambientLight intensity={10} />
         <PresentationControls
@@ -50,7 +66,7 @@ export default function Scene() {
             rotation-z={7}
             rotation-x={1.2}
             rotation-y={-0.3}
-            position={[1, -1, 1]}
+            position={[1, 0, -1]}
           >
             <meshBasicMaterial color="#ffffff" />
           </primitive>
@@ -66,6 +82,9 @@ export default function Scene() {
           <meshBasicMaterial color="#FFB7D2" />
         </mesh> */}
       </Canvas>
+      <p className="ring-instruction">
+        click and drag <br></br>on ring to move around
+      </p>
     </div>
   )
 }

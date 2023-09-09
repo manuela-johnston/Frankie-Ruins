@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <Scene eventSource={document.getElementById('root')}></Scene>
       <HeroOverlay />
-      <Featured style={{ height: '100px', backgroundColor: '#FFF4F8' }} />
+      {/* <Featured style={{ height: '150px', backgroundColor: '#FFF4F8' }} /> */}
       <VideoGallery />
-      <InstagramFeed />
       <MiniBio />
+      <InstagramFeed />
       <Footer />
     </>
   )
